@@ -13,7 +13,7 @@ public class ObjectReaders {
 	
 	public ObjectReaders() throws IOException {
 		pro=new Properties();
-		String path="C:\\Users\\2488452\\eclipse-workspace\\com.final_project.Interest\\ObjectRepository\\object.properties";
+		String path="ObjectRepository/object.properties";
 		fis=new FileInputStream(path);
 		pro.load(fis);
 	}
