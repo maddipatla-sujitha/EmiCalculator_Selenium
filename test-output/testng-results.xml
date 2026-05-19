@@ -2,67 +2,183 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T13:56:19 IST" name="Default suite" finished-at="2026-05-19T13:56:50 IST" duration-ms="31346">
+  <suite started-at="2026-05-19T17:00:22 IST" name="Default suite" finished-at="2026-05-19T17:00:45 IST" duration-ms="22611">
     <groups>
     </groups>
-    <test started-at="2026-05-19T13:56:19 IST" name="Default test" finished-at="2026-05-19T13:56:50 IST" duration-ms="31346">
+    <test started-at="2026-05-19T17:00:22 IST" name="Default test" finished-at="2026-05-19T17:00:45 IST" duration-ms="22611">
       <class name="TestCases.HomePageTest">
-        <test-method is-config="true" signature="Launch_Browser_Test()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:19 IST" name="Launch_Browser_Test" finished-at="2026-05-19T13:56:42 IST" duration-ms="23262" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:22 IST" name="startReport" finished-at="2026-05-19T17:00:22 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="Launch_Browser_Test()[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:22 IST" name="Launch_Browser_Test" finished-at="2026-05-19T17:00:39 IST" duration-ms="16400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch_Browser_Test -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:42 IST" name="initPage" finished-at="2026-05-19T13:56:42 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="init" finished-at="2026-05-19T17:00:39 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyHomePageLoads()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyBarChartVisisble()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:42 IST" name="verifyBarChartVisisble" finished-at="2026-05-19T13:56:42 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBarChartVisisble -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:42 IST" name="initPage" finished-at="2026-05-19T13:56:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyCarLoanTab()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:42 IST" name="verifyCarLoanTab" finished-at="2026-05-19T13:56:43 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCarLoanTab -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="initPage" finished-at="2026-05-19T13:56:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyChartVisible()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="verifyChartVisible" finished-at="2026-05-19T13:56:43 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyChartVisible -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="initPage" finished-at="2026-05-19T13:56:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="verifyHomePageLoads" finished-at="2026-05-19T13:56:43 IST" duration-ms="25" status="PASS">
+        </test-method> <!-- init -->
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="verifyHomePageLoads" finished-at="2026-05-19T17:00:39 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoads -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="initPage" finished-at="2026-05-19T13:56:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="getResult" finished-at="2026-05-19T17:00:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLoads status=SUCCESS method=HomePageTest.verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyPersonalLoanTab()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="verifyPersonalLoanTab" finished-at="2026-05-19T13:56:43 IST" duration-ms="328" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPersonalLoanTab -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="initPage" finished-at="2026-05-19T13:56:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyUIElements()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="verifyUIElements" finished-at="2026-05-19T13:56:43 IST" duration-ms="125" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyUIElements()[pri:1, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="verifyUIElements" finished-at="2026-05-19T17:00:39 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUIElements -->
-        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestCases.HomePageTest@62ddbd7e]" started-at="2026-05-19T13:56:43 IST" name="QuitBrowser" finished-at="2026-05-19T13:56:50 IST" duration-ms="6958" status="PASS">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="init" finished-at="2026-05-19T17:00:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyUIElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="getResult" finished-at="2026-05-19T17:00:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUIElements status=SUCCESS method=HomePageTest.verifyUIElements()[pri:1, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="verifyCarLoanTab" finished-at="2026-05-19T17:00:40 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarLoanTab -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:39 IST" name="init" finished-at="2026-05-19T17:00:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyCarLoanTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="getResult" finished-at="2026-05-19T17:00:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCarLoanTab status=SUCCESS method=HomePageTest.verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="init" finished-at="2026-05-19T17:00:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyPersonalLoanTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="verifyPersonalLoanTab" finished-at="2026-05-19T17:00:40 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalLoanTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="getResult" finished-at="2026-05-19T17:00:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPersonalLoanTab status=SUCCESS method=HomePageTest.verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="init" finished-at="2026-05-19T17:00:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyChartVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="verifyChartVisible" finished-at="2026-05-19T17:00:40 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChartVisible -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="getResult" finished-at="2026-05-19T17:00:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChartVisible status=SUCCESS method=HomePageTest.verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="verifyBarChartVisible" finished-at="2026-05-19T17:00:40 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBarChartVisible -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="init" finished-at="2026-05-19T17:00:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomePageTest.verifyBarChartVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="getResult" finished-at="2026-05-19T17:00:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBarChartVisible status=SUCCESS method=HomePageTest.verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@1ce24091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:40 IST" name="QuitBrowser" finished-at="2026-05-19T17:00:45 IST" duration-ms="4660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.HomePageTest@1ce24091]" started-at="2026-05-19T17:00:45 IST" name="endReport" finished-at="2026-05-19T17:00:45 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- TestCases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
