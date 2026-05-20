@@ -1,13 +1,15 @@
 package Pages;
 
+import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class CarLoanPage{
 	WebDriver driver;
 	
-	//constructor
+	
 	public CarLoanPage(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -15,7 +17,6 @@ public class CarLoanPage{
 	By car_Loan_Link = By.linkText("Car Loan");
 	By enterLoanAmount = By.id("loanamount");
 	By enterInterestRate = By.id("loaninterest");
-	By loan_Tenure_Month = By.xpath("//*[@id=\'emicalculatorinnerform\']/div[7]/div/div/div/div/div/label[2]");
 	By enterTenure = By.id("loanterm");
 	
 	By advanceEMI = By.xpath("//*[@id=\'leschemewrapper\']/div/div/div/div/label[1]");
@@ -36,68 +37,75 @@ public class CarLoanPage{
 		carLink.click();
 	}
 	
-	
-	public void carLoanAmount(String cAmount) {
-		WebElement carAmount = driver.findElement(enterLoanAmount);
-		carAmount.sendKeys(cAmount);
-	}
-	
-	public void interestRate(String cInterest) {
-		WebElement carInterestRate = driver.findElement(enterInterestRate);
-		carInterestRate.sendKeys(cInterest);
-	}
-	
-	public void loanTenurePerMonth(String cTenure) {
-		WebElement carLoanPerMonth = driver.findElement(loan_Tenure_Month);
-		carLoanPerMonth.click();
+	//Enter the Amount 
+	public void carLoanAmount() {
 		
-		WebElement tenPerMonth = driver.findElement(enterTenure);
-		tenPerMonth.sendKeys(cTenure);
+		WebElement carLoan = driver.findElement(enterLoanAmount);
+		carLoan.clear();
+		carLoan.sendKeys("1500000");
+
 	}
 	
+	// Enter the Interest
+	public void interestRate() {
+		WebElement carInterest = driver.findElement(enterInterestRate);
+		carInterest.clear();
+		carInterest.sendKeys(".5");
+
+	}
 	
+	//Enter Tenure
+	public void loanTenurePerMonth() {
+		WebElement carTenure = driver.findElement(enterTenure);
+		carTenure.clear();
+		carTenure.sendKeys("");
+
+	}
+	
+	// Click EMI in Advance
 	public void clickEmiAdvance() {
 		WebElement emiAdvance = driver.findElement(advanceEMI);
 		emiAdvance.click();
 	}
 	
+	//Click EMI in Arrears
 	public void clickEmiArrears() {
 		WebElement emiArrears = driver.findElement(arrearsEMI);
 		emiArrears.click();
 	}
 	
+	// Click Year Field
 	public void clickYear() {
 		WebElement yearInTableAdv = driver.findElement(year_Click);
 		yearInTableAdv.click();
 	}
 	
+	// Get First Month Principal 
 	public String getFirstMonthPrincipal() {
 		WebElement advPrincipal = driver.findElement(principal);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);",advPrincipal);
 		return advPrincipal.getText();
 		
 	}
 	
+	// Get First Month Interest
 	public String getFirstMonthInterest() {
 		WebElement advInterest = driver.findElement(interest);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);",advInterest);
 		return advInterest.getText();
 	}
 	
+	//Get Loan EMI
 	public String getLoanEmi() {
 		WebElement advLoanEmi = driver.findElement(loanEmi);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);",advLoanEmi);
 		return advLoanEmi.getText();
 	}
-	
-	
-	
-	
-	
-	 
-	
-	
-	
-	
-	
-	
+
+
        
 }
 
