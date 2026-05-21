@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a4d9894-28dc-4066-822c-2fdc0f312d2e" name="Changes" comment="Car Loan Testing Page extent reports added">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BrowserImplementation/BrowserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browserImplementation/BrowserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectImplementation/ObjectReaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objectImplementation/ObjectReaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/CarLoanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CarLoanPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomeLoanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomeLoanPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PersonalLoanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalLoanPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/CarLoanTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/CarLoanTestingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TestLandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TestLandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BrowserImplementation/BrowserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BrowserImplementation/BrowserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.final_project.Interest/com.final_project.Interest/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.final_project.Interest/com.final_project.Interest/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectImplementation/ObjectReaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ObjectImplementation/ObjectReaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CarLoanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CarLoanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/HomeLoanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/HomeLoanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/PersonalLoanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/PersonalLoanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExcelUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ExcelUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/TestLandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/TestLandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCases.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCases.HomePageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nehaa44-p&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maddipatla-sujitha/EmiCalculator_Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;0724bf2a-5eee-4fcc-bd17-f677be2e3c40&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3DyFtJraepcrvu6uEINuknPYNHx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2488490/git/EmiCalculator_Selenium&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="com.final_project.Interest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="com.final_project.Interest" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a4d9894-28dc-4066-822c-2fdc0f312d2e" name="Changes" comment="" />
+      <created>1779246617669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779246617669</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Car Loan Page Added">
+      <option name="closed" value="true" />
+      <created>1779246809239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779246809239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Car Loan Testing Page extent reports added">
+      <option name="closed" value="true" />
+      <created>1779255941581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779255941581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Car Loan Page Added" />
+    <MESSAGE value="Car Loan Testing Page Added" />
+    <MESSAGE value="Car Loan Testing Page extent reports added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car Loan Testing Page extent reports added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/CarLoanPage.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

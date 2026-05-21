@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_20-05-2026_08_45_[Changes]" date="1779247074009" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-05-2026_08_45_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 20-05-2026 08:45 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/TestCases/TestLandingPage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/TestCases/TestLandingPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-05-2026_08_45_[Changes]/TestLandingPage.class" />
+  </binary>
+</changelist>

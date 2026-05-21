@@ -61,15 +61,16 @@ public class HomeLoanPage {
 		WebElement emi=wait.until(ExpectedConditions.visibilityOfElementLocated(emiValuePerMonth));
 				return emi.getText();
 	}
-	
+    
+	//Click Year in Table
+	public void  clickYearTable() {
+		 WebElement Year26P=wait.until(ExpectedConditions.visibilityOfElementLocated(year));
+		 Year26P.click();
+	}
 	
 	//Scroll down to year table
 	 public String getPrincipalAmountPerMonth() {
-		 WebElement Year26P=wait.until(ExpectedConditions.visibilityOfElementLocated(year));
-		 Year26P.click();
-		 
 	        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(PrincipalAmountPerMonth));
-
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
 	        js.executeScript("arguments[0].scrollIntoView(true);", element);
 			return element.getText();
@@ -77,8 +78,6 @@ public class HomeLoanPage {
 	
 	//Get InterestAmount
 	public String getInterestAmountPerMonth() {
-		WebElement Year26Interest=wait.until(ExpectedConditions.visibilityOfElementLocated(year));
-		Year26Interest.click();
 		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(InterestAmountPerMonth));
 		return element.getText();
 	}

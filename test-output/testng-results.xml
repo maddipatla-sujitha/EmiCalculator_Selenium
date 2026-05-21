@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T10:37:50 IST" name="Suite" finished-at="2026-05-21T10:38:38 IST" duration-ms="48423">
+  <suite started-at="2026-05-21T11:44:37 IST" name="Suite" finished-at="2026-05-21T11:45:22 IST" duration-ms="45154">
     <groups>
     </groups>
-    <test started-at="2026-05-21T10:37:50 IST" name="ParallelTests" finished-at="2026-05-21T10:38:38 IST" duration-ms="48423">
+    <test started-at="2026-05-21T11:44:37 IST" name="ParallelTests" finished-at="2026-05-21T11:45:22 IST" duration-ms="45154">
       <class name="TestCases.CarLoanTestingPage">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:04 IST" duration-ms="13808" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:37 IST" name="launchBrowser" finished-at="2026-05-21T11:44:52 IST" duration-ms="15574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:04 IST" name="setUp" finished-at="2026-05-21T10:38:04 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:52 IST" name="setUp" finished-at="2026-05-21T11:44:52 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickCarLoanTest()[pri:1, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:04 IST" name="clickCarLoanTest" finished-at="2026-05-21T10:38:05 IST" duration-ms="1617" status="PASS">
+        <test-method signature="clickCarLoanTest()[pri:1, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:52 IST" name="clickCarLoanTest" finished-at="2026-05-21T11:44:53 IST" duration-ms="1217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCarLoanTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="carLoanTest()[pri:2, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:53 IST" name="carLoanTest" finished-at="2026-05-21T11:45:04 IST" duration-ms="10646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:53 IST" name="getResult" finished-at="2026-05-21T11:44:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="setUp" finished-at="2026-05-21T10:38:05 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:44:53 IST" name="setUp" finished-at="2026-05-21T11:44:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,11 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="carLoanTest()[pri:2, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="carLoanTest" finished-at="2026-05-21T10:38:17 IST" duration-ms="11411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carLoanTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="getResult" finished-at="2026-05-21T10:38:17 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:04 IST" name="getResult" finished-at="2026-05-21T11:45:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="setUp" finished-at="2026-05-21T10:38:17 IST" duration-ms="5" status="PASS">
+        <test-method signature="clickAdvance()[pri:3, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:04 IST" name="clickAdvance" finished-at="2026-05-21T11:45:06 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdvance -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:04 IST" name="setUp" finished-at="2026-05-21T11:45:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickAdvance()[pri:3, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="clickAdvance" finished-at="2026-05-21T10:38:19 IST" duration-ms="2233" status="PASS">
+        <test-method signature="advanceLoan()[pri:4, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:06 IST" name="advanceLoan" finished-at="2026-05-21T11:45:11 IST" duration-ms="4425" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAdvance -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="getResult" finished-at="2026-05-21T10:38:19 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- advanceLoan -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:06 IST" name="getResult" finished-at="2026-05-21T11:45:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="setUp" finished-at="2026-05-21T10:38:19 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:06 IST" name="setUp" finished-at="2026-05-21T11:45:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,11 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="advanceLoan()[pri:4, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="advanceLoan" finished-at="2026-05-21T10:38:24 IST" duration-ms="4827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- advanceLoan -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="getResult" finished-at="2026-05-21T10:38:24 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:11 IST" name="getResult" finished-at="2026-05-21T11:45:11 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="setUp" finished-at="2026-05-21T10:38:24 IST" duration-ms="2" status="PASS">
+        <test-method signature="clickArrears()[pri:5, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:11 IST" name="clickArrears" finished-at="2026-05-21T11:45:13 IST" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickArrears -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:11 IST" name="setUp" finished-at="2026-05-21T11:45:11 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,11 +130,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickArrears()[pri:5, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="clickArrears" finished-at="2026-05-21T10:38:26 IST" duration-ms="2248" status="PASS">
+        <test-method signature="arrearLoan()[pri:6, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:13 IST" name="arrearLoan" finished-at="2026-05-21T11:45:16 IST" duration-ms="3532" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickArrears -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="getResult" finished-at="2026-05-21T10:38:26 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- arrearLoan -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:13 IST" name="getResult" finished-at="2026-05-21T11:45:13 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="setUp" finished-at="2026-05-21T10:38:26 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:13 IST" name="setUp" finished-at="2026-05-21T11:45:13 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="arrearLoan()[pri:6, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="arrearLoan" finished-at="2026-05-21T10:38:30 IST" duration-ms="3889" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:16 IST" name="quitBrowser" finished-at="2026-05-21T11:45:22 IST" duration-ms="5447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- arrearLoan -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:30 IST" name="getResult" finished-at="2026-05-21T10:38:30 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T11:45:16 IST" name="getResult" finished-at="2026-05-21T11:45:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,25 +171,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:30 IST" name="quitBrowser" finished-at="2026-05-21T10:38:38 IST" duration-ms="8229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
       </class> <!-- TestCases.CarLoanTestingPage -->
       <class name="TestCases.HomePageTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:37:49 IST" name="startReport" finished-at="2026-05-21T10:37:50 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:36 IST" name="startReport" finished-at="2026-05-21T11:44:37 IST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:05 IST" duration-ms="14787" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:37 IST" name="launchBrowser" finished-at="2026-05-21T11:44:52 IST" duration-ms="15393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="init()[pri:-1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="init" finished-at="2026-05-21T10:38:05 IST" duration-ms="10" status="PASS">
+        <test-method signature="init()[pri:-1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="init" finished-at="2026-05-21T11:44:52 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="getResult" finished-at="2026-05-21T11:44:52 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,11 +196,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyHomePageLoads" finished-at="2026-05-21T10:38:05 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="verifyHomePageLoads" finished-at="2026-05-21T11:44:52 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoads -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="getResult" finished-at="2026-05-21T11:44:52 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,11 +211,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyUIElements()[pri:1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyUIElements" finished-at="2026-05-21T10:38:05 IST" duration-ms="351" status="PASS">
+        <test-method signature="verifyUIElements()[pri:1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="verifyUIElements" finished-at="2026-05-21T11:44:52 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUIElements -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="4" status="PASS">
+        <test-method signature="verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="verifyCarLoanTab" finished-at="2026-05-21T11:44:53 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarLoanTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:52 IST" name="getResult" finished-at="2026-05-21T11:44:52 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,11 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyCarLoanTab" finished-at="2026-05-21T10:38:06 IST" duration-ms="824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCarLoanTab -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:06 IST" name="getResult" finished-at="2026-05-21T10:38:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="getResult" finished-at="2026-05-21T11:44:53 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,11 +241,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:06 IST" name="verifyPersonalLoanTab" finished-at="2026-05-21T10:38:07 IST" duration-ms="822" status="PASS">
+        <test-method signature="verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="verifyPersonalLoanTab" finished-at="2026-05-21T11:44:53 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPersonalLoanTab -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="getResult" finished-at="2026-05-21T11:44:53 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,11 +256,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="verifyChartVisible" finished-at="2026-05-21T10:38:07 IST" duration-ms="136" status="PASS">
+        <test-method signature="verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="verifyChartVisible" finished-at="2026-05-21T11:44:53 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChartVisible -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+        <test-method signature="verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="verifyBarChartVisible" finished-at="2026-05-21T11:44:53 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBarChartVisible -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="getResult" finished-at="2026-05-21T11:44:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,11 +275,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="verifyBarChartVisible" finished-at="2026-05-21T10:38:07 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBarChartVisible -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="getResult" finished-at="2026-05-21T11:44:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,25 +286,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="quitBrowser" finished-at="2026-05-21T10:38:15 IST" duration-ms="8061" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:44:53 IST" name="quitBrowser" finished-at="2026-05-21T11:44:57 IST" duration-ms="4014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:38 IST" name="endReport" finished-at="2026-05-21T10:38:39 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T11:45:22 IST" name="endReport" finished-at="2026-05-21T11:45:22 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- TestCases.HomePageTest -->
       <class name="TestCases.PersonalLoanTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:03 IST" duration-ms="12886" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:37 IST" name="launchBrowser" finished-at="2026-05-21T11:44:52 IST" duration-ms="15393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="personalLoanSetUp()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="personalLoanSetUp" finished-at="2026-05-21T10:38:03 IST" duration-ms="243" status="PASS">
+        <test-method signature="personalLoanSetUp()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:52 IST" name="personalLoanSetUp" finished-at="2026-05-21T11:44:52 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoanSetUp -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="getResult" finished-at="2026-05-21T10:38:03 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:52 IST" name="getResult" finished-at="2026-05-21T11:44:52 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -315,11 +315,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="clickPersonalLoanTab()[pri:1, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="clickPersonalLoanTab" finished-at="2026-05-21T10:38:07 IST" duration-ms="3354" status="PASS">
+        <test-method signature="clickPersonalLoanTab()[pri:1, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:52 IST" name="clickPersonalLoanTab" finished-at="2026-05-21T11:44:54 IST" duration-ms="2252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPersonalLoanTab -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:54 IST" name="getResult" finished-at="2026-05-21T11:44:54 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,11 +330,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="loanAmount()[pri:2, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:07 IST" name="loanAmount" finished-at="2026-05-21T10:38:09 IST" duration-ms="2855" status="PASS">
+        <test-method signature="loanAmount()[pri:2, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:54 IST" name="loanAmount" finished-at="2026-05-21T11:44:57 IST" duration-ms="2433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanAmount -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:09 IST" name="getResult" finished-at="2026-05-21T10:38:09 IST" duration-ms="2" status="PASS">
+        <test-method signature="interestRate()[pri:3, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:57 IST" name="interestRate" finished-at="2026-05-21T11:44:59 IST" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:57 IST" name="getResult" finished-at="2026-05-21T11:44:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,11 +349,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="interestRate()[pri:3, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:09 IST" name="interestRate" finished-at="2026-05-21T10:38:12 IST" duration-ms="2574" status="PASS">
+        <test-method signature="loanTenure()[pri:4, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:59 IST" name="loanTenure" finished-at="2026-05-21T11:45:01 IST" duration-ms="2305" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- interestRate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:12 IST" name="getResult" finished-at="2026-05-21T10:38:12 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- loanTenure -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:44:59 IST" name="getResult" finished-at="2026-05-21T11:44:59 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,11 +364,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="loanTenure()[pri:4, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:12 IST" name="loanTenure" finished-at="2026-05-21T10:38:15 IST" duration-ms="2735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loanTenure -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="getResult" finished-at="2026-05-21T10:38:15 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:01 IST" name="getResult" finished-at="2026-05-21T11:45:01 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,11 +375,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testGetEMIPerMonth()[pri:5, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="testGetEMIPerMonth" finished-at="2026-05-21T10:38:15 IST" duration-ms="230" status="PASS">
+        <test-method signature="testGetEMIPerMonth()[pri:5, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:01 IST" name="testGetEMIPerMonth" finished-at="2026-05-21T11:45:02 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetEMIPerMonth -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="getResult" finished-at="2026-05-21T10:38:15 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:02 IST" name="getResult" finished-at="2026-05-21T11:45:02 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -390,11 +390,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testGetPrincipalAmountPerMonth()[pri:6, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="testGetPrincipalAmountPerMonth" finished-at="2026-05-21T10:38:16 IST" duration-ms="886" status="PASS">
+        <test-method signature="testGetPrincipalAmountPerMonth()[pri:6, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:02 IST" name="testGetPrincipalAmountPerMonth" finished-at="2026-05-21T11:45:02 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPrincipalAmountPerMonth -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:16 IST" name="getResult" finished-at="2026-05-21T10:38:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:02 IST" name="getResult" finished-at="2026-05-21T11:45:02 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -405,11 +405,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testGetInterestAmountPerMonth()[pri:7, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:16 IST" name="testGetInterestAmountPerMonth" finished-at="2026-05-21T10:38:19 IST" duration-ms="3045" status="PASS">
+        <test-method signature="testGetInterestAmountPerMonth()[pri:7, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:02 IST" name="testGetInterestAmountPerMonth" finished-at="2026-05-21T11:45:03 IST" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetInterestAmountPerMonth -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:19 IST" name="getResult" finished-at="2026-05-21T10:38:19 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:03 IST" name="getResult" finished-at="2026-05-21T11:45:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,7 +420,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:19 IST" name="quitBrowser" finished-at="2026-05-21T10:38:26 IST" duration-ms="7383" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T11:45:03 IST" name="quitBrowser" finished-at="2026-05-21T11:45:11 IST" duration-ms="7696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
