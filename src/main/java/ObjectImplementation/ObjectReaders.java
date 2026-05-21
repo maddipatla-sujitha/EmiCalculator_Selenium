@@ -11,6 +11,7 @@ public class ObjectReaders {
 	FileInputStream fis;
 	Properties pro;
 	
+	//Reading Object Properties File
 	public ObjectReaders() throws IOException {
 		pro=new Properties();
 		String path="ObjectRepository/object.properties";
@@ -18,6 +19,7 @@ public class ObjectReaders {
 		pro.load(fis);
 	}
 	
+	//Getting Browser Url 
 	public String getBaseUrl() {
 		return pro.getProperty("BaseUrl");
 	}

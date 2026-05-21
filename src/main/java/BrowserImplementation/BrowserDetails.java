@@ -6,10 +6,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserDetails {
+	
+	//WebDriver Method
 	WebDriver driver;
 	public BrowserDetails(WebDriver driver) {
 		this.driver=driver;
 	}
+	
+	//Method to select the Browser
 	public WebDriver select_Browser(int choice) {
 		switch(choice) {
 		case 1:
@@ -25,7 +29,6 @@ public class BrowserDetails {
 			driver=null;
 			break;
 		}
-		System.out.println("Browser Opened");
 		return driver;
 	}
 }
