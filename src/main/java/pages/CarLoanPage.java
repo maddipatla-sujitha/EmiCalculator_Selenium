@@ -57,8 +57,6 @@ public class CarLoanPage{
 	public void loanTenurePerMonth() {
 		WebElement carTenure = driver.findElement(enterTenure);
 		carTenure.clear();
-		carTenure.sendKeys("");
-
 	}
 	
 	// Click EMI in Advance

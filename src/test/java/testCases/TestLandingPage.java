@@ -60,13 +60,27 @@ public class TestLandingPage {
 
         ExtentTest test = ReusableMethods.getTest();
         String methodName = result.getMethod().getMethodName();
+
         if (test != null) {
             if (result.getStatus() == ITestResult.FAILURE) {
+
+                // Take screenshot
+                String path = ReusableMethods.captureScreenshot(methodName);
+                test.fail(methodName + " - Test Failed");
                 test.fail(result.getThrowable());
-            } else if (result.getStatus() == ITestResult.SUCCESS) {
-                test.pass(methodName+" - Test Passed");
-            } else {
-                test.skip(methodName+" - Test Skipped");
+
+                // Attach to report
+                try {
+                    test.addScreenCaptureFromPath(path);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } 
+            else if (result.getStatus() == ITestResult.SUCCESS) {
+                test.pass(methodName + " - Test Passed");
+            }
+            else {
+                test.skip(methodName + " - Test Skipped");
             }
         }
     }
@@ -79,6 +93,7 @@ public class TestLandingPage {
             ReusableMethods.getDriver().quit();
             ReusableMethods.removeDriver();
             System.out.println("Browser closed for: " + getClass().getSimpleName());
+            System.out.println("-----------------------------------------------------------------------------------");
         }
     }
 

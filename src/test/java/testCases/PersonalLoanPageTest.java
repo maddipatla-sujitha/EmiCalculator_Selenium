@@ -119,7 +119,7 @@ public class PersonalLoanPageTest extends TestLandingPage {
     }
     
   //Write Loan Amount, InterestRate and TotalEMI per month in excel
-    @Test(priority = 5)
+    @Test(priority = 6)
     public void writeHomeLoanDataToExcel() throws Exception {
 
         //enter values
@@ -128,6 +128,7 @@ public class PersonalLoanPageTest extends TestLandingPage {
         pp.enterLoanTenure();
 
         //fetch values
+        pp.clickYear();
         String emi = pp.getEMIPerMonth();
         String principal = pp.getPrincipalAmountPerMonth();
         String interest = pp.getInterestAmountPerMonth();

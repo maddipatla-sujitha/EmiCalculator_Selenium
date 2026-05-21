@@ -1,5 +1,10 @@
 package utils;
 
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -36,6 +41,26 @@ public class ReusableMethods {
     // Remove Driver
      public static void removeDriver() {
          driver.remove();
+     }
+     
+     //Screenshot
+
+     public static String captureScreenshot(String testName) {
+
+         String filePath = "Screenshots/" + testName  + ".png";
+
+         try {
+             File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+
+             File dest = new File(filePath);
+             dest.getParentFile().mkdirs();
+
+             FileUtils.copyFile(src, dest);
+
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+         return filePath;
      }
 
 }
