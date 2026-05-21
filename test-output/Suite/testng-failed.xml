@@ -7,13 +7,48 @@
         <methods>
           <include name="quitBrowser"/>
           <include name="writeHomeLoanDataToExcel"/>
+<<<<<<< HEAD
           <include name="startReport"/>
           <include name="homeSetUp"/>
+=======
+          <include name="homeSetUp"/>
+          <include name="startReport"/>
+>>>>>>> b831e70 (Temp rename)
           <include name="endReport"/>
           <include name="getResult"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- testCases.HomeLoanPageTest -->
+<<<<<<< HEAD
+=======
+      <class name="testCases.CarLoanPageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="writeCarLoanDataToExcel"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.CarLoanPageTest -->
+      <class name="testCases.PersonalLoanPageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="writeHomeLoanDataToExcel"/>
+          <include name="personalLoanSetUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.PersonalLoanPageTest -->
+      <class name="testCases.HomePageTest">
+        <methods>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.HomePageTest -->
+>>>>>>> b831e70 (Temp rename)
     </classes>
   </test> <!-- ParallelTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

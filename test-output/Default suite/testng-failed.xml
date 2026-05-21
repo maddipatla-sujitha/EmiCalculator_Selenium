@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.HomeLoanPageTest">
         <methods>
+<<<<<<< HEAD
           <include name="quitBrowser"/>
           <include name="writeHomeLoanDataToExcel"/>
           <include name="startReport"/>
@@ -12,6 +13,18 @@
           <include name="endReport"/>
           <include name="getResult"/>
           <include name="launchBrowser"/>
+=======
+          <include name="testGetInterestAmountPerMonth"/>
+          <include name="quitBrowser"/>
+          <include name="testGetPrincipalAmountPerMonth"/>
+          <include name="homeSetUp"/>
+          <include name="startReport"/>
+          <include name="testGetEMIPerMonth"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+          <include name="loanDetails"/>
+>>>>>>> b831e70 (Temp rename)
         </methods>
       </class> <!-- testCases.HomeLoanPageTest -->
     </classes>
