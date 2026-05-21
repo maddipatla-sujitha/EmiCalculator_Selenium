@@ -1,69 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T21:30:25 IST" name="Default suite" finished-at="2026-05-19T21:31:57 IST" duration-ms="92562">
+  <suite started-at="2026-05-21T10:37:50 IST" name="Suite" finished-at="2026-05-21T10:38:38 IST" duration-ms="48423">
     <groups>
     </groups>
-    <test started-at="2026-05-19T21:30:25 IST" name="Default test" finished-at="2026-05-19T21:31:57 IST" duration-ms="92562">
+    <test started-at="2026-05-21T10:37:50 IST" name="ParallelTests" finished-at="2026-05-21T10:38:38 IST" duration-ms="48423">
       <class name="TestCases.CarLoanTestingPage">
-        <test-method is-config="true" signature="Launch_Browser_Test()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:30:25 IST" name="Launch_Browser_Test" finished-at="2026-05-19T21:31:27 IST" duration-ms="62686" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:04 IST" duration-ms="13808" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launch_Browser_Test -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:28 IST" name="setUp" finished-at="2026-05-19T21:31:28 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:04 IST" name="setUp" finished-at="2026-05-21T10:38:04 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.clickCarLoanTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickCarLoanTest()[pri:1, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:28 IST" name="clickCarLoanTest" finished-at="2026-05-19T21:31:28 IST" duration-ms="582" status="PASS">
+        <test-method signature="clickCarLoanTest()[pri:1, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:04 IST" name="clickCarLoanTest" finished-at="2026-05-21T10:38:05 IST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCarLoanTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:28 IST" name="setUp" finished-at="2026-05-19T21:31:28 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCarLoanTest status=SUCCESS method=CarLoanTestingPage.clickCarLoanTest()[pri:1, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="setUp" finished-at="2026-05-21T10:38:05 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.carLoanTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="carLoanTest()[pri:2, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:28 IST" name="carLoanTest" finished-at="2026-05-19T21:31:40 IST" duration-ms="11935" status="PASS">
+        <test-method signature="carLoanTest()[pri:2, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:05 IST" name="carLoanTest" finished-at="2026-05-21T10:38:17 IST" duration-ms="11411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:40 IST" name="setUp" finished-at="2026-05-19T21:31:40 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="getResult" finished-at="2026-05-21T10:38:17 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carLoanTest status=SUCCESS method=CarLoanTestingPage.carLoanTest()[pri:2, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="setUp" finished-at="2026-05-21T10:38:17 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.clickAdvance() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickAdvance()[pri:3, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:40 IST" name="clickAdvance" finished-at="2026-05-19T21:31:41 IST" duration-ms="1333" status="PASS">
+        <test-method signature="clickAdvance()[pri:3, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:17 IST" name="clickAdvance" finished-at="2026-05-21T10:38:19 IST" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAdvance -->
-        <test-method signature="advanceLoan()[pri:4, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:41 IST" name="advanceLoan" finished-at="2026-05-19T21:31:45 IST" duration-ms="3802" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="getResult" finished-at="2026-05-21T10:38:19 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAdvance status=SUCCESS method=CarLoanTestingPage.clickAdvance()[pri:3, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="setUp" finished-at="2026-05-21T10:38:19 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.advanceLoan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="advanceLoan()[pri:4, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:19 IST" name="advanceLoan" finished-at="2026-05-21T10:38:24 IST" duration-ms="4827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- advanceLoan -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:41 IST" name="setUp" finished-at="2026-05-19T21:31:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="getResult" finished-at="2026-05-21T10:38:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=advanceLoan status=SUCCESS method=CarLoanTestingPage.advanceLoan()[pri:4, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="setUp" finished-at="2026-05-21T10:38:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.clickArrears() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickArrears()[pri:5, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:45 IST" name="clickArrears" finished-at="2026-05-19T21:31:47 IST" duration-ms="1353" status="PASS">
+        <test-method signature="clickArrears()[pri:5, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:24 IST" name="clickArrears" finished-at="2026-05-21T10:38:26 IST" duration-ms="2248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickArrears -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:45 IST" name="setUp" finished-at="2026-05-19T21:31:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="getResult" finished-at="2026-05-21T10:38:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickArrears status=SUCCESS method=CarLoanTestingPage.clickArrears()[pri:5, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="setUp" finished-at="2026-05-21T10:38:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.CarLoanTestingPage.arrearLoan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="arrearLoan()[pri:6, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:47 IST" name="arrearLoan" finished-at="2026-05-19T21:31:50 IST" duration-ms="3721" status="PASS">
+        <test-method signature="arrearLoan()[pri:6, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:26 IST" name="arrearLoan" finished-at="2026-05-21T10:38:30 IST" duration-ms="3889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arrearLoan -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:47 IST" name="setUp" finished-at="2026-05-19T21:31:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:30 IST" name="getResult" finished-at="2026-05-21T10:38:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=arrearLoan status=SUCCESS method=CarLoanTestingPage.arrearLoan()[pri:6, instance:TestCases.CarLoanTestingPage@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@4e08711f]" started-at="2026-05-19T21:31:50 IST" name="QuitBrowser" finished-at="2026-05-19T21:31:57 IST" duration-ms="6901" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.CarLoanTestingPage@2a5c8d3f]" started-at="2026-05-21T10:38:30 IST" name="quitBrowser" finished-at="2026-05-21T10:38:38 IST" duration-ms="8229" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- QuitBrowser -->
+        </test-method> <!-- quitBrowser -->
       </class> <!-- TestCases.CarLoanTestingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCases.HomePageTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:37:49 IST" name="startReport" finished-at="2026-05-21T10:37:50 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:05 IST" duration-ms="14787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="init()[pri:-1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="init" finished-at="2026-05-21T10:38:05 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=HomePageTest.init()[pri:-1, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyHomePageLoads" finished-at="2026-05-21T10:38:05 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoads -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLoads status=SUCCESS method=HomePageTest.verifyHomePageLoads()[pri:0, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyUIElements()[pri:1, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyUIElements" finished-at="2026-05-21T10:38:05 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUIElements -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="getResult" finished-at="2026-05-21T10:38:05 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUIElements status=SUCCESS method=HomePageTest.verifyUIElements()[pri:1, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:05 IST" name="verifyCarLoanTab" finished-at="2026-05-21T10:38:06 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarLoanTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:06 IST" name="getResult" finished-at="2026-05-21T10:38:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCarLoanTab status=SUCCESS method=HomePageTest.verifyCarLoanTab()[pri:2, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:06 IST" name="verifyPersonalLoanTab" finished-at="2026-05-21T10:38:07 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalLoanTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPersonalLoanTab status=SUCCESS method=HomePageTest.verifyPersonalLoanTab()[pri:3, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="verifyChartVisible" finished-at="2026-05-21T10:38:07 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChartVisible -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChartVisible status=SUCCESS method=HomePageTest.verifyChartVisible()[pri:4, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="verifyBarChartVisible" finished-at="2026-05-21T10:38:07 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBarChartVisible -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBarChartVisible status=SUCCESS method=HomePageTest.verifyBarChartVisible()[pri:5, instance:TestCases.HomePageTest@5dda768f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:07 IST" name="quitBrowser" finished-at="2026-05-21T10:38:15 IST" duration-ms="8061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.HomePageTest@5dda768f]" started-at="2026-05-21T10:38:38 IST" name="endReport" finished-at="2026-05-21T10:38:39 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.PersonalLoanTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:37:50 IST" name="launchBrowser" finished-at="2026-05-21T10:38:03 IST" duration-ms="12886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="personalLoanSetUp()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="personalLoanSetUp" finished-at="2026-05-21T10:38:03 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanSetUp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="getResult" finished-at="2026-05-21T10:38:03 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=personalLoanSetUp status=SUCCESS method=PersonalLoanTest.personalLoanSetUp()[pri:0, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="clickPersonalLoanTab()[pri:1, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:03 IST" name="clickPersonalLoanTab" finished-at="2026-05-21T10:38:07 IST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPersonalLoanTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:07 IST" name="getResult" finished-at="2026-05-21T10:38:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickPersonalLoanTab status=SUCCESS method=PersonalLoanTest.clickPersonalLoanTab()[pri:1, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="loanAmount()[pri:2, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:07 IST" name="loanAmount" finished-at="2026-05-21T10:38:09 IST" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:09 IST" name="getResult" finished-at="2026-05-21T10:38:09 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loanAmount status=SUCCESS method=PersonalLoanTest.loanAmount()[pri:2, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="interestRate()[pri:3, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:09 IST" name="interestRate" finished-at="2026-05-21T10:38:12 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:12 IST" name="getResult" finished-at="2026-05-21T10:38:12 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=interestRate status=SUCCESS method=PersonalLoanTest.interestRate()[pri:3, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="loanTenure()[pri:4, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:12 IST" name="loanTenure" finished-at="2026-05-21T10:38:15 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenure -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="getResult" finished-at="2026-05-21T10:38:15 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loanTenure status=SUCCESS method=PersonalLoanTest.loanTenure()[pri:4, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetEMIPerMonth()[pri:5, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="testGetEMIPerMonth" finished-at="2026-05-21T10:38:15 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEMIPerMonth -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="getResult" finished-at="2026-05-21T10:38:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetEMIPerMonth status=SUCCESS method=PersonalLoanTest.testGetEMIPerMonth()[pri:5, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetPrincipalAmountPerMonth()[pri:6, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:15 IST" name="testGetPrincipalAmountPerMonth" finished-at="2026-05-21T10:38:16 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrincipalAmountPerMonth -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:16 IST" name="getResult" finished-at="2026-05-21T10:38:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPrincipalAmountPerMonth status=SUCCESS method=PersonalLoanTest.testGetPrincipalAmountPerMonth()[pri:6, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetInterestAmountPerMonth()[pri:7, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:16 IST" name="testGetInterestAmountPerMonth" finished-at="2026-05-21T10:38:19 IST" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInterestAmountPerMonth -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:19 IST" name="getResult" finished-at="2026-05-21T10:38:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetInterestAmountPerMonth status=SUCCESS method=PersonalLoanTest.testGetInterestAmountPerMonth()[pri:7, instance:TestCases.PersonalLoanTest@752325ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.PersonalLoanTest@752325ad]" started-at="2026-05-21T10:38:19 IST" name="quitBrowser" finished-at="2026-05-21T10:38:26 IST" duration-ms="7383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestCases.PersonalLoanTest -->
+    </test> <!-- ParallelTests -->
+  </suite> <!-- Suite -->
 </testng-results>
