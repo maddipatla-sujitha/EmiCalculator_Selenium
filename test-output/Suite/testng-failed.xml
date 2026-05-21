@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="ParallelTests(failed)">
+    <classes>
+      <class name="testCases.HomeLoanPageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="writeHomeLoanDataToExcel"/>
+          <include name="startReport"/>
+          <include name="homeSetUp"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.HomeLoanPageTest -->
+    </classes>
+  </test> <!-- ParallelTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

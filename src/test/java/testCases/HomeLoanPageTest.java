@@ -74,7 +74,10 @@ public class HomeLoanPageTest extends TestLandingPage {
     	ReusableMethods.getTest().info("Fetching Principal Amount");
 
         try {
-            String principal = hp.getPrincipalAmountPerMonth();
+        	
+        	hp.clickYearTable();
+        	
+            String principal = hp.getHomePrincipalAmountPerMonth();
             ReusableMethods.getTest().pass("Principal Amount: " + principal);
             System.out.println("Principal Amount per month(Home Loan): " + principal);
         } catch (Exception e) {
@@ -90,7 +93,7 @@ public class HomeLoanPageTest extends TestLandingPage {
     	ReusableMethods.getTest().info("Fetching Interest Amount");
 
     	try {
-    		String interest = hp.getInterestAmountPerMonth();
+    		String interest = hp.getHomeInterestAmountPerMonth();
     		ReusableMethods.getTest().pass("Interest Amount: " + interest);
     		System.out.println("Interest Amount per month(Home Loan): " + interest);
     	} catch (Exception e) {
@@ -109,9 +112,10 @@ public class HomeLoanPageTest extends TestLandingPage {
         hp.enterLoanTenure();
 
         //fetch values
+        hp.clickYearTable();
         String emi = hp.getEMIPerMonth();
-        String principal = hp.getPrincipalAmountPerMonth();
-        String interest = hp.getInterestAmountPerMonth();
+        String principal = hp.getHomePrincipalAmountPerMonth();
+        String interest = hp.getHomeInterestAmountPerMonth();
 
         //write to Excel
         ExcelUtility.writeHomeLoanData(principal, interest, emi);

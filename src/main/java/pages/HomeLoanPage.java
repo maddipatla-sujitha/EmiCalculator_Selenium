@@ -25,8 +25,8 @@ public class HomeLoanPage {
 	
 	By emiValuePerMonth=By.xpath("//*[@id=\'emiamount\']/p/span");
 	By year=By.id("year2026");
-	By PrincipalAmountPerMonth=By.xpath("//*[@id=\'monthyear2026\']/td/div/table/tbody/tr[1]/td[2]");
-	By InterestAmountPerMonth=By.xpath("//*[@id=\'monthyear2026\']/td/div/table/tbody/tr[1]/td[3]");
+	By PrincipalAmountPerMonthHome=By.xpath("//*[@id=\'monthyear2026\']/td/div/table/tbody/tr[1]/td[2]");
+	By InterestAmountPerMonthHome=By.xpath("//*[@id=\'monthyear2026\']/td/div/table/tbody/tr[1]/td[3]");
 	
 	//verify the home loan page
 	public String verifyHomePage() {
@@ -64,22 +64,24 @@ public class HomeLoanPage {
     
 	//Click Year in Table
 	public void  clickYearTable() {
-		 WebElement Year26P=wait.until(ExpectedConditions.visibilityOfElementLocated(year));
+		 WebElement Year26P= driver.findElement(year);
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+	        js.executeScript("arguments[0].scrollIntoView(true);", Year26P);
 		 Year26P.click();
 	}
 	
 	//Scroll down to year table
-	 public String getPrincipalAmountPerMonth() {
-	        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(PrincipalAmountPerMonth));
+	 public String getHomePrincipalAmountPerMonth() {
+	        WebElement elementA = wait.until(ExpectedConditions.visibilityOfElementLocated(PrincipalAmountPerMonthHome));
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
-	        js.executeScript("arguments[0].scrollIntoView(true);", element);
-			return element.getText();
+	        js.executeScript("arguments[0].scrollIntoView(true);", elementA);
+			return elementA.getText();
 	    }
 	
 	//Get InterestAmount
-	public String getInterestAmountPerMonth() {
-		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(InterestAmountPerMonth));
-		return element.getText();
+	public String getHomeInterestAmountPerMonth() {
+		WebElement elementI=wait.until(ExpectedConditions.visibilityOfElementLocated(InterestAmountPerMonthHome));
+		return elementI.getText();
 	}
 	
 }
