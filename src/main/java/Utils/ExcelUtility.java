@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -7,80 +7,90 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class ExcelUtility {
 
-    public static void main(String[] args) {
+    // Single workbook instance
+    private static Workbook wb = new XSSFWorkbook();
 
-        Workbook wb = new XSSFWorkbook();
+    // Sheets for each loan type
+    public static Sheet homeLoan = wb.createSheet("Home Loan");
+    public static Sheet personalLoan = wb.createSheet("Personal Loan");
+    public static Sheet carLoan = wb.createSheet("Car Loan");
 
-        // Create 3 Sheets
-        Sheet HomeLoan = wb.createSheet("Home Loan");
-        Sheet PersonalLoan = wb.createSheet("Personal Loan");
-        Sheet CarLoan = wb.createSheet("Car Loan");
+    // Row counters (important for multiple entries)
+    private static int homeRow = 1;
+    private static int personalRow = 1;
+    private static int carRow = 1;
 
-        // HOME LOAN DATA
-        createHeader(HomeLoan);
-        Object[][] homeData = {
-            {"2026", "61486", "298404", "359890", "4938514", "1.23%"},
-            {"May", "7486", "37500", "44986", "4992514", "0.15%"},
-            {"Jun", "7542", "37444", "44986", "4984971", "0.30%"}
-        };
+    // Static block → runs once automatically
+    static {
+        createHeader(homeLoan);
+        createHeader(personalLoan);
+        createHeader(carLoan);
+    }
 
-        writeData(HomeLoan, homeData);
-
-        // PERSONAL LOAN DATA
+    // Create header
+    public static void createHeader(Sheet sheet) {
+        Row header = sheet.createRow(0);
+        header.createCell(0).setCellValue("Loan Type");
+        header.createCell(1).setCellValue("Principal");
+        header.createCell(2).setCellValue("Interest");
+        header.createCell(3).setCellValue("EMI");
         
-        createHeader(PersonalLoan);
-        Object[][] personalData = {
-            {"Month 1", "12000", "3000", "15000", "480000", "2%"},
-            {"Month 2", "12500", "2800", "15300", "467500", "4%"}
-        };
+    }
 
-        writeData(PersonalLoan, personalData);
+    // Write Home Loan Data
+    public static synchronized void writeHomeLoanData(
+            String principal, String interest, String emi) {
 
-        // CAR LOAN DATA
+        Row row = homeLoan.createRow(homeRow++);
+
+        row.createCell(0).setCellValue("Home Loan");
+        row.createCell(1).setCellValue(principal);
+        row.createCell(2).setCellValue(interest);
+        row.createCell(3).setCellValue(emi);
         
-        createHeader(CarLoan);
+    }
 
-        Object[][] carData = {
-            {"Month 1", "119000", "11875", "131000", "1381000", "7%"},
-            {"Month 2", "120000", "11000", "131000", "1261000", "15%"}
-        };
+    // Write Personal Loan Data
+    public static synchronized void writePersonalLoanData(
+            String principal, String interest, String emi) {
 
-        writeData(CarLoan, carData);
+        Row row = personalLoan.createRow(personalRow++);
 
-        // Save file
+        row.createCell(0).setCellValue("Personal Loan");
+        row.createCell(1).setCellValue(principal);
+        row.createCell(2).setCellValue(interest);
+        row.createCell(3).setCellValue(emi);
+        
+    }
+
+    // Write Car Loan Data
+    public static synchronized void writeCarLoanData(
+           String type, String principal, String interest, String emi) {
+
+        Row row = carLoan.createRow(carRow++);
+
+        row.createCell(0).setCellValue("Car Loan "+type);
+        row.createCell(1).setCellValue(principal);
+        row.createCell(2).setCellValue(interest);
+        row.createCell(3).setCellValue(emi);
+        
+    }
+
+    // Save Excel File
+    public static void saveExcel() {
         try {
             FileOutputStream fos = new FileOutputStream("TestData/Loans.xlsx");
             wb.write(fos);
             wb.close();
             fos.close();
-            System.out.println("Excel with 3 sheets created successfully!");
+
+            System.out.println("Excel file written successfully!");
+
         } catch (IOException e) {
             e.printStackTrace();
-        }
-    }
-
-    // Reusable method for Header
-    public static void createHeader(Sheet sheet) {
-        Row header = sheet.createRow(0);
-        header.createCell(0).setCellValue("Year");
-        header.createCell(1).setCellValue("Principal");
-        header.createCell(2).setCellValue("Interest");
-        header.createCell(3).setCellValue("Total Payment");
-        header.createCell(4).setCellValue("Balance");
-        header.createCell(5).setCellValue("Loan Paid %");
-    }
-
-    // Reusable method for Data Writing
-    public static void writeData(Sheet sheet, Object[][] data) {
-        int rowNum = 1;
-
-        for (Object[] rowData : data) {
-            Row row = sheet.createRow(rowNum++);
-            for (int i = 0; i < rowData.length; i++) {
-                row.createCell(i).setCellValue(rowData[i].toString());
-            }
         }
     }
 }
