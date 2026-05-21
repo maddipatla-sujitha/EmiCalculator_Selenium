@@ -1,12 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite" parallel="classes" thread-count="3">
+<suite name="Suite" parallel="classes" thread-count="4">
     
     <test name="ParallelTests">
         <classes>
-            <class name="TestCases.HomePageTest"/>
-            <class name="TestCases.CarLoanTestingPage"/>
-            <class name="TestCases.PersonalLoanTest"/>
+            <class name="testCases.HomePageTest"/>
+            <class name="testCases.CarLoanPageTest"/>
+            <class name="testCases.PersonalLoanPageTest"/>
+            <class name="testCases.HomeLoanPageTest"/>
         </classes>
     </test>
 

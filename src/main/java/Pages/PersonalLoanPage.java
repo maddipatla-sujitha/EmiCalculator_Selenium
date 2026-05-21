@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -35,21 +35,21 @@ public class PersonalLoanPage {
     }
 
     //Enter the Loan Amount
-    public void enter_Loan_Amount(){
+    public void enterLoanAmount(){
         WebElement loanElement = wait.until(ExpectedConditions.visibilityOfElementLocated(pLoanAmount));
         loanElement.clear();
         loanElement.sendKeys("1500000");
     }
 
     //Enter the Interest Rate per Month
-    public void enter_Interest_rate(){
+    public void enterInterestRate(){
         WebElement interElement = wait.until(ExpectedConditions.visibilityOfElementLocated(pInterestRate));
         interElement.clear();
         interElement.sendKeys(".5");
     }
 
     //Enter the loan tenure
-    public void enter_Loan_tenure(){
+    public void enterLoanTenure(){
         WebElement tElement = wait.until(ExpectedConditions.visibilityOfElementLocated(pLoanTenure));
         tElement.clear();
         tElement.sendKeys("");
@@ -64,7 +64,7 @@ public class PersonalLoanPage {
     }
 
     //Return Principal amount per month
-    public String returnPrincipal(){
+    public String getPrincipalAmountPerMonth(){
         WebElement principal = driver.findElement(principleAmount);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);",principal);
@@ -72,7 +72,7 @@ public class PersonalLoanPage {
     }
     
     //Return Interest amount per month
-    public String returnInterestAmount() {
+    public String getInterestAmountPerMonth() {
         WebElement interest = driver.findElement(pInterestAmount);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);",interest);
@@ -80,7 +80,7 @@ public class PersonalLoanPage {
     }
     
     //Return Total EMI per month
-    public String returnEMI(){
+    public String getEMIPerMonth(){
     	WebElement emi = driver.findElement(pLoanEmi);
     	JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("arguments[0].scrollIntoView(true);",emi);

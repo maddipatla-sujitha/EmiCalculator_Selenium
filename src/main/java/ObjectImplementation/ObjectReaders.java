@@ -1,4 +1,4 @@
-package ObjectImplementation;
+package objectImplementation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
