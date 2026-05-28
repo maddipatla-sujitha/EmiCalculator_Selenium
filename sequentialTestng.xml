@@ -1,9 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite" preserve-order="true">
+
 	<listeners>
     	<listener class-name="utils.ExcelReportListener"/>
+    	<listener class-name="utils.ExcelReportListener"/>
   	</listeners>
+  	
     <test name="SequentialTests">
         <classes>
             <class name="testCases.HomePageTest"/>

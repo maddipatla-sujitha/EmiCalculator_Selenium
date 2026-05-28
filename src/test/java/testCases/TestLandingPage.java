@@ -45,7 +45,7 @@ public class TestLandingPage {
         ObjectReaders or = new ObjectReaders();
         ReusableMethods.getDriver().get(or.getBaseUrl());
 
-        Thread.sleep(2000);
+        ReusableMethods.waitForPageToLoad();
 
         // Create Extent test
         ExtentTest test = extent.createTest(getClass().getSimpleName());

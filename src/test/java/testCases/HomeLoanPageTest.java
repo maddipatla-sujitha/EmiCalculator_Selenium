@@ -21,7 +21,7 @@ public class HomeLoanPageTest extends TestLandingPage {
         ReusableMethods.getTest().assignAuthor("Laya");
         ReusableMethods.getTest().assignCategory("HomeLoanPage Tests");
         ReusableMethods.getTest().assignDevice("Chrome");      
-        Thread.sleep(1000);
+        ReusableMethods.waitForPageToLoad();
     }
     
     //enter the Loan amount, Interest Rate, Loan Tenure
@@ -32,21 +32,21 @@ public class HomeLoanPageTest extends TestLandingPage {
 	    try {
 	        hp.enterLoanAmount();
 	        ReusableMethods.getTest().pass("Car Loan Amount entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        hp.enterInterestRate();
 	        ReusableMethods.getTest().pass("Interest Rate entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        hp.enterLoanTenure();
 	        ReusableMethods.getTest().pass("Loan Tenure entered successfully");
-	        Thread.sleep(4000);
+	        ReusableMethods.waitForPageToLoad();
 
 	    } catch (Exception e) {
 	    	ReusableMethods.getTest().fail("Car Loan Test failed: " + e.getMessage());
 	        Assert.fail("Car Loan Test failed", e);
 	    }
-    	Thread.sleep(1000);
+	    ReusableMethods.waitForPageToLoad();
     }
 
 
@@ -113,6 +113,8 @@ public class HomeLoanPageTest extends TestLandingPage {
 
         //fetch values
         hp.clickYearTable();
+        ReusableMethods.waitForPageToLoad();
+        
         String emi = hp.getEMIPerMonth();
         String principal = hp.getHomePrincipalAmountPerMonth();
         String interest = hp.getHomeInterestAmountPerMonth();

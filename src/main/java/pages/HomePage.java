@@ -3,7 +3,9 @@ package pages;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -56,12 +58,34 @@ public class HomePage {
     }
 
     public boolean isChartDisplayed() {
-        return driver.findElement(pieChart).isDisplayed();
+        try {
+            WebElement element = driver.findElement(pieChart);
+
+            // Scroll to element
+            ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView(true);", element);
+
+            return element.isDisplayed();
+
+        } catch (Exception e) {
+            return false;
+        }
     }
-	
+
     public boolean isBarChartDisplayed() {
-        return driver.findElement(barChart).isDisplayed();
+        try {
+            WebElement element = driver.findElement(barChart);
+
+            ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].scrollIntoView(true);", element);
+
+            return element.isDisplayed();
+
+        } catch (Exception e) {
+            return false;
+        }
     }
+
 }
 
 

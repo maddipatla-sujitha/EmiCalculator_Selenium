@@ -44,7 +44,6 @@ public class ReusableMethods {
      }
      
      //Screenshot
-
      public static String captureScreenshot(String testName) {
 
          String filePath = "Screenshots/" + testName  + ".png";
@@ -61,6 +60,11 @@ public class ReusableMethods {
              e.printStackTrace();
          }
          return filePath;
+     }
+     
+     //Wait for the page to load
+     public static void waitForPageToLoad() throws InterruptedException {
+    	 Thread.sleep(2000);
      }
 
 }

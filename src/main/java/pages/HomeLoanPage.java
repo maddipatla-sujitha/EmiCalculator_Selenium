@@ -51,8 +51,9 @@ public class HomeLoanPage {
 	
 	//Enter the loan tenure
 	public void enterLoanTenure() {
-		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(loanTenure));
-		element.clear();
+		WebElement element1=wait.until(ExpectedConditions.visibilityOfElementLocated(loanTenure));
+		element1.clear();
+//		element1.sendKeys("-1");
 	}
 	
 	//Get EMI value

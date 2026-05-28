@@ -87,7 +87,7 @@ public class ExcelUtility {
             wb.close();
             fos.close();
 
-            System.out.println("Excel file written successfully!");
+            System.out.println("Excel file written successfully! :Loans.xlsx");
 
         } catch (IOException e) {
             e.printStackTrace();

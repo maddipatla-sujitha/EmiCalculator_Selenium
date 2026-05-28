@@ -28,7 +28,7 @@ public class PersonalLoanPageTest extends TestLandingPage {
     public void clickPersonalLoanTab() throws InterruptedException {
     	ReusableMethods.getTest().info("Clicking on Personal Loan Tab");
         pp.clickPLoanTab();
-        Thread.sleep(2000);
+        ReusableMethods.waitForPageToLoad();
         ReusableMethods.getTest().pass("Personal Loan Tab clicked successfully");
     }
 
@@ -39,15 +39,15 @@ public class PersonalLoanPageTest extends TestLandingPage {
 	    try {
 	        pp.enterLoanAmount();
 	        ReusableMethods.getTest().pass("Car Loan Amount entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        pp.enterInterestRate();
 	        ReusableMethods.getTest().pass("Interest Rate entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        pp.enterLoanTenure();
 	        ReusableMethods.getTest().pass("Loan Tenure entered successfully");
-	        Thread.sleep(4000);
+	        ReusableMethods.waitForPageToLoad();
 
 	    } catch (Exception e) {
 	    	ReusableMethods.getTest().fail("Car Loan Test failed: " + e.getMessage());
@@ -120,7 +120,7 @@ public class PersonalLoanPageTest extends TestLandingPage {
     
   //Write Loan Amount, InterestRate and TotalEMI per month in excel
     @Test(priority = 6)
-    public void writeHomeLoanDataToExcel() throws Exception {
+    public void writePersonalLoanDataToExcel() throws Exception {
 
         //enter values
         pp.enterLoanAmount();
@@ -129,6 +129,8 @@ public class PersonalLoanPageTest extends TestLandingPage {
 
         //fetch values
         pp.clickYear();
+        ReusableMethods.waitForPageToLoad();
+        
         String emi = pp.getEMIPerMonth();
         String principal = pp.getPrincipalAmountPerMonth();
         String interest = pp.getInterestAmountPerMonth();

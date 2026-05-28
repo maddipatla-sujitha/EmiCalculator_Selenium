@@ -35,7 +35,7 @@ public class CarLoanPageTest extends TestLandingPage{
 	    	ReusableMethods.getTest().fail("Failed to click Car Loan tab: " + e.getMessage());
 	        Assert.fail("Car Loan tab click failed", e);
 	    }
-		Thread.sleep(1000);
+		ReusableMethods.waitForPageToLoad();
 	  }
 
 	 // Testing  Loan Amount , Interest , Tenure for EMI in Advance
@@ -46,15 +46,15 @@ public class CarLoanPageTest extends TestLandingPage{
 	    try {
 	        cp.carLoanAmount();
 	        ReusableMethods.getTest().pass("Car Loan Amount entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        cp.interestRate();
 	        ReusableMethods.getTest().pass("Interest Rate entered successfully");
-	        Thread.sleep(3000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        cp.loanTenurePerMonth();
 	        ReusableMethods.getTest().pass("Loan Tenure entered successfully");
-	        Thread.sleep(4000);
+	        ReusableMethods.waitForPageToLoad();
 
 	    } 
 	    catch (Exception e) {
@@ -69,13 +69,13 @@ public class CarLoanPageTest extends TestLandingPage{
 		ReusableMethods.getTest().info("Clicking EMI Advance option");
 	    try {
 	        cp.clickEmiAdvance();
-	        Thread.sleep(1000);
+	        ReusableMethods.waitForPageToLoad();
 	        ReusableMethods.getTest().pass("EMI Advance option clicked successfully");
 	    } catch (Exception e) {
 	    	ReusableMethods.getTest().fail("Failed to click EMI Advance option: " + e.getMessage());
 	        Assert.fail("Advance option click failed", e);
 	    }
-	    Thread.sleep(1000);
+	    ReusableMethods.waitForPageToLoad();
 	}
 	
 	//Validating Advance Loan EMI details
@@ -85,7 +85,7 @@ public class CarLoanPageTest extends TestLandingPage{
 		System.out.println("Validating Advance Loan EMI details(Car Loan)");
 	    try {
 	        cp.clickYear();
-	        Thread.sleep(2000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        ReusableMethods.getTest().pass("First Month Principal (Advance): " + cp.getFirstMonthPrincipal());
 	        System.out.println("First Month Principal (Advance)(Car Loan): " + cp.getFirstMonthPrincipal());
@@ -100,7 +100,7 @@ public class CarLoanPageTest extends TestLandingPage{
 	    	ReusableMethods.getTest().fail("Advance Loan EMI validation failed: " + e.getMessage());
 	        Assert.fail("Advance Loan EMI failed", e);
 	    }
-	    Thread.sleep(2000);
+	    ReusableMethods.waitForPageToLoad();
 		
 	}
 	
@@ -111,13 +111,13 @@ public class CarLoanPageTest extends TestLandingPage{
 		 System.out.println("Clicking EMI Arrears option(Car Loan)");
 		    try {
 		        cp.clickEmiArrears();
-		        Thread.sleep(1000);
+		        ReusableMethods.waitForPageToLoad();
 		        ReusableMethods.getTest().pass("EMI Arrears option clicked successfully");
 		    } catch (Exception e) {
 		    	ReusableMethods.getTest().fail("Failed to click EMI Arrears option: " + e.getMessage());
 		        Assert.fail("Arrears option click failed", e);
 		    }
-		    Thread.sleep(1000);
+		    ReusableMethods.waitForPageToLoad();
 	}
 	
 	//Validating Arrears Loan EMI details
@@ -126,7 +126,7 @@ public class CarLoanPageTest extends TestLandingPage{
 		ReusableMethods.getTest().info("Validating Arrears Loan EMI details");
 	    try {
 	        cp.clickYear();
-	        Thread.sleep(1000);
+	        ReusableMethods.waitForPageToLoad();
 
 	        ReusableMethods.getTest().pass("First Month Principal (Arrears): " + cp.getFirstMonthPrincipal());
 	        System.out.println("First Month Principal (Arrears)(Car Loan): " + cp.getFirstMonthPrincipal());
@@ -140,7 +140,7 @@ public class CarLoanPageTest extends TestLandingPage{
 	    	ReusableMethods.getTest().fail("Arrears Loan EMI validation failed: " + e.getMessage());
 	        Assert.fail("Arrears Loan EMI failed", e);
 	    }
-	    Thread.sleep(2000);
+	    ReusableMethods.waitForPageToLoad();
 	}
 	
 	//Write Loan Amount, InterestRate and TotalEMI per month in excel
@@ -166,10 +166,10 @@ public class CarLoanPageTest extends TestLandingPage{
 
 	    //Step 3: Switch to Arrears
 	    cp.clickEmiArrears();
-	    Thread.sleep(1000);
+	    ReusableMethods.waitForPageToLoad();
 
 	    cp.clickYear();
-	    Thread.sleep(1000);
+	    ReusableMethods.waitForPageToLoad();
 
 	    String arrPrincipal = cp.getFirstMonthPrincipal();
 	    String arrInterest = cp.getFirstMonthInterest();

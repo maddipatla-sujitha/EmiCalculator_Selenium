@@ -85,7 +85,7 @@ public class HomePageTest extends TestLandingPage{
 
 	//To check if Pie Chart is Displayed
 	@Test(priority=4)
-	public void verifyChartVisible() {
+	public void verifyPieChartVisible() {
 
 		ReusableMethods.getTest().info("Checking if Pie Chart is displayed");
 		System.out.println("Checking if Pie chart is displayed");
